@@ -1,0 +1,62 @@
+add wave -position end sim:/my_gcd/*
+force -freeze sim:/my_gcd/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/my_gcd/rst 1 0
+force -freeze sim:/my_gcd/A 16#62 0
+force -freeze sim:/my_gcd/B 16#38 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /my_gcd/s0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /my_gcd/s0
+force -freeze sim:/my_gcd/rst 0 0
+run
+run
+run
+run
+run
+force -freeze sim:/my_gcd/rst 1 0
+force -freeze sim:/my_gcd/A 16#798F20 0
+force -freeze sim:/my_gcd/B 16#12B87CA0 0
+
+run
+force -freeze sim:/my_gcd/rst 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/my_gcd/rst 1 0
+force -freeze sim:/my_gcd/B 16#9 0
+force -freeze sim:/my_gcd/A 16#0 0
+run
+force -freeze sim:/my_gcd/rst 0 0
+run
+run
+run
+run
+force -freeze sim:/my_gcd/rst 1 0
+force -freeze sim:/my_gcd/A 16#FFFFFFFF 0
+force -freeze sim:/my_gcd/B 16#FFFFFFFF 0
+run
+force -freeze sim:/my_gcd/rst 0 0
+run
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -2 is not in bounds of subtype NATURAL.
+#    Time: 3300 ps  Iteration: 1  Instance: /my_gcd/s0
+run
+run
+run
+run

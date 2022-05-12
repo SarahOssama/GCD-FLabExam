@@ -1,0 +1,31 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.numeric_std.ALL;
+
+ENTITY counter IS
+    PORT (
+        clk : IN STD_LOGIC;
+        en : IN STD_LOGIC;
+        rst : IN STD_LOGIC;
+        counter_CU : OUT STD_LOGIC_VECTOR(2 DOWNTO 0));
+
+END ENTITY counter;
+
+ARCHITECTURE a_counter OF counter IS
+
+    SIGNAL counter_Val : INTEGER;
+
+BEGIN
+    PROCESS (clk, rst) IS
+    BEGIN
+        IF rst = '1' THEN
+            -- counter_CU <= (OTHERS => '0');
+            counter_Val <= 0;
+        ELSIF rising_edge(clk) AND en = '1' THEN
+            counter_Val <= counter_Val + 1;
+        END IF;
+    END PROCESS;
+
+    counter_CU <= STD_LOGIC_VECTOR(to_unsigned(counter_Val, 3));
+
+END a_counter;

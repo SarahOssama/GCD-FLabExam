@@ -1,0 +1,163 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Uni/Senior-1/Semester 8/Comp Architecture/Lab Exam/LabExam2
+Emy_gcd
+Z0 w1652381919
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 66
+Z4 dD:/Uni/Senior-1/Semester 8/Comp Architecture/FLabExam
+Z5 8D:\Uni\Senior-1\Semester 8\Comp Architecture\FLabExam\GCD.vhd
+Z6 FD:\Uni\Senior-1\Semester 8\Comp Architecture\FLabExam\GCD.vhd
+l0
+L4 1
+VDVGl^2m8XBD9ko[kd4Zg`0
+!s100 8Ne[VS?LVYE[mAoi^S_X;0
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1652381931
+!i10b 1
+Z9 !s108 1652381931.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Uni\Senior-1\Semester 8\Comp Architecture\FLabExam\GCD.vhd|
+Z11 !s107 D:\Uni\Senior-1\Semester 8\Comp Architecture\FLabExam\GCD.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aa_gcd
+R1
+R2
+R3
+Z14 DEx4 work 6 my_gcd 0 22 DVGl^2m8XBD9ko[kd4Zg`0
+!i122 66
+l30
+L15 60
+VAPdK[cf=1__Dnh3WYkR7d0
+!s100 2Az1;Q64j7T=mcO46onFA1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Aa_my_temp
+w1652359061
+R1
+R2
+R3
+R14
+!i122 26
+Z15 8D:\Uni\Senior-1\Semester 8\Comp Architecture\FLabExam\temp.vhd
+Z16 FD:\Uni\Senior-1\Semester 8\Comp Architecture\FLabExam\temp.vhd
+l25
+Z17 L15 16
+VEU:8ekLPEob`06Gg8ldb73
+!s100 iS;TRaI[J]m;j4SbHAH8>3
+R7
+32
+!s110 1652359065
+!i10b 1
+!s108 1652359065.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Uni\Senior-1\Semester 8\Comp Architecture\FLabExam\temp.vhd|
+Z19 !s107 D:\Uni\Senior-1\Semester 8\Comp Architecture\FLabExam\temp.vhd|
+!i113 1
+R12
+R13
+Emy_mod
+Z20 w1652360223
+R1
+R2
+R3
+!i122 65
+R4
+Z21 8D:\Uni\Senior-1\Semester 8\Comp Architecture\FLabExam\MOD.vhd
+Z22 FD:\Uni\Senior-1\Semester 8\Comp Architecture\FLabExam\MOD.vhd
+l0
+L4 1
+V`;2gD<d4HZRNBDU;DHg0^3
+!s100 3Z]E4NDK=WM=lOz][FN`:1
+R7
+32
+Z23 !s110 1652381930
+!i10b 1
+Z24 !s108 1652381930.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Uni\Senior-1\Semester 8\Comp Architecture\FLabExam\MOD.vhd|
+Z26 !s107 D:\Uni\Senior-1\Semester 8\Comp Architecture\FLabExam\MOD.vhd|
+!i113 1
+R12
+R13
+Aa_mod
+R1
+R2
+R3
+DEx4 work 6 my_mod 0 22 `;2gD<d4HZRNBDU;DHg0^3
+!i122 65
+l14
+L11 10
+VhIfFLU@QGSmQVF@mfQo0a0
+!s100 :aF7=Y>lbjcJd[olb7MNV0
+R7
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R12
+R13
+Emy_temp
+Z27 w1652359635
+R1
+R2
+R3
+!i122 46
+R4
+R15
+R16
+l0
+L4 1
+VBEBF>E?XDG5=kUi:T9MF>2
+!s100 QVDdhfZL^>R:e>_Sn;7YH3
+R7
+32
+Z28 !s110 1652359821
+!i10b 1
+Z29 !s108 1652359821.000000
+R18
+R19
+!i113 1
+R12
+R13
+Aa_my_temp
+R1
+R2
+R3
+DEx4 work 7 my_temp 0 22 BEBF>E?XDG5=kUi:T9MF>2
+!i122 46
+l25
+R17
+VG<H?MQa[g3Xb[G]G<Ng:W2
+!s100 3<[R<h@G1VS2VP[OePRe=2
+R7
+32
+R28
+!i10b 1
+R29
+R18
+R19
+!i113 1
+R12
+R13
